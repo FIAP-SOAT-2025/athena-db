@@ -58,7 +58,7 @@ Este projeto cria os seguintes recursos na AWS:
 
 | Nome | Descrição | Tipo | Padrão | Sensível |
 | --- | --- | --- | --- | --- |
-| `projectName` | O nome do projeto. | `string` | `"tc3-g38-lanchonete"` | não |
+| `projectName` | O nome do projeto. | `string` | `"tc5-g192-athena"` | não |
 | `db_user` | O nome de usuário para o banco de dados RDS. | `string` | - | sim |
 | `db_password` | A senha para o usuário do banco de dados RDS. | `string` | - | sim |
 | `access_token` | O Access Token para integração com APIs externas. | `string` | - | sim |
