@@ -1,8 +1,8 @@
 data "terraform_remote_state" "infra" {
   backend = "s3"
   config = {
-    bucket = "terraform-state-tc5-g192-athena-v1"
-    key    = "infra/terraform.tfstate"
+    bucket = var.tf_state_bucket
+    key    = var.infra_remote_state_key
     region = "us-east-1"
   }
 }
