@@ -58,11 +58,11 @@ Este projeto cria os seguintes recursos na AWS:
 
 | Nome | Descrição | Tipo | Padrão | Sensível |
 | --- | --- | --- | --- | --- |
-| `projectName` | O nome do projeto. | `string` | `"tc5-g192-athena-v1-felipe"` | não |
-| `tf_state_bucket` | Nome do bucket S3 do state Terraform. | `string` | `"terraform-state-tc5-g192-athena-v1-felipe"` | não |
-| `infra_remote_state_key` | Chave do state remoto da stack de infra. | `string` | `"tc5-g192-athena-v1-felipe/infra/terraform.tfstate"` | não |
-| `db_state_key` | Chave do state remoto da stack de banco. | `string` | `"tc5-g192-athena-v1-felipe/db/terraform.tfstate"` | não |
-| `videos_bucket_name` | Nome do bucket de vídeos padronizado para o ambiente. | `string` | `"athena-videos-tc5-g192-v1-felipe"` | não |
+| `projectName` | O nome do projeto. | `string` | `"tc5-g192-athena-v1"` | não |
+| `tf_state_bucket` | Nome do bucket S3 do state Terraform. | `string` | `"terraform-state-tc5-g192-athena-v1"` | não |
+| `infra_remote_state_key` | Chave do state remoto da stack de infra. | `string` | `"tc5-g192-athena-v1/infra/terraform.tfstate"` | não |
+| `db_state_key` | Chave do state remoto da stack de banco. | `string` | `"tc5-g192-athena-v1/db/terraform.tfstate"` | não |
+| `videos_bucket_name` | Nome do bucket de vídeos padronizado para o ambiente. | `string` | `"athena-videos-tc5-g192-v1"` | não |
 | `db_user` | O nome de usuário para o banco de dados RDS. | `string` | - | sim |
 | `db_password` | A senha para o usuário do banco de dados RDS. | `string` | - | sim |
 | `access_token` | O Access Token para integração com APIs externas. | `string` | - | sim |
